@@ -166,6 +166,10 @@ $darkred: #a75248;
       }
     }
   }
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 .stars {
@@ -258,7 +262,7 @@ $darkred: #a75248;
     }
   }
 }
-
+ 
 @keyframes fumes {
   50% {
     transform: scale(1.5);
